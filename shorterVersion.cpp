@@ -9,7 +9,7 @@ int main(int argc, char** argv){
 
 	int index = 0, t;
 	while(in >> t){
-		out << index++ << " => \"" << bitset<32>(t).to_string() << "\"" << endl;
+		out << index++ << " => \"" << bitset<32>(t).to_string() << "\"," << endl;
 	}
 
 	out << "others => \"00000000000000000000000000000000\"" << endl;
