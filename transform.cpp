@@ -12,7 +12,7 @@ string transform(int num, int index){
 	s += " => \"";
 	bitset<32> key(num);
 	s += key.to_string();
-	s += "\"";
+	s += "\",";
 	return s;
 }
 
